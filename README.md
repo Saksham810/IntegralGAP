@@ -278,18 +278,3 @@ executes both this command and `python -B -S verify_all.py`.
 | Output directory must be new or empty | Choose a fresh path with `--output results-another-run`. Previous outputs are deliberately preserved. |
 | A check appears silent | Let it finish; exact rational calculations are CPU-intensive. Inspect the corresponding logs if it exits unsuccessfully. |
 | A mathematical check fails | Keep the logs and nonzero exit status. Do not remove the failed inequality or change the constants to obtain `PASS`. |
-
-## Scope and reference from the paper
-
-The computation establishes finite numerical inequalities for this particular
-rule table. The manuscript proves the conditional load invariant, upward
-padding, reductions from all real sizes and all feasible configurations to the
-finite checks, finite-input error estimates, and transfer to GPAP. The repository
-is not a runnable online allocator or a formal proof-assistant development, and
-it does not establish optimality of the selected rule family.
-
-The numerical verification needs only this repository. The mathematical proofs
-in Appendices B and C should remain in the paper. Once this repository is on
-GitHub, Appendix E's integral reproduction instructions can be replaced by a
-reference to the repository and preferably an immutable commit or tagged release.
-Use the actual published repository URL; none has been assumed in this bundle.
