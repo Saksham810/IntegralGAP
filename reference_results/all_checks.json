@@ -1,0 +1,96 @@
+{
+  "status": "PASS",
+  "scope": "integral verification only",
+  "python": "3.12.14",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.39",
+  "manifest_files": 10,
+  "integral_table_sha256": "ed6fe9bcdcb3f24cacbc6b5a02cb823fb6f57bb124066c1e7d7e5f7d6ab4d264",
+  "integral_full": {
+    "status": "PASS",
+    "certificate": "verification/integral/research/runs/eplus1_search_expanded5_cert.json.gz",
+    "counts": 7,
+    "labels": 146,
+    "rules": 290,
+    "availability_checks": 226688,
+    "crossing_checks": 723840,
+    "packing_checks": 219072,
+    "minorant_checks": 47760,
+    "service_coefficients": 38,
+    "limiting_lower_bound": "307770970018984529425873353861053278824139/1200000005486015625000000000000000000000000",
+    "decimal": "0.25647580717662853651700172308991562",
+    "worst_pair": [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      1,
+      1
+    ],
+    "witness_bound": "1200000000001/100000000000",
+    "finite_loss_constant": "4718849996128173/17000000000",
+    "elapsed": 64.467
+  },
+  "integral_spatial": {
+    "status": "PASS",
+    "certificate": "verification/integral/research/runs/eplus1_search_expanded5_cert.json.gz",
+    "certificate_sha256": "ed6fe9bcdcb3f24cacbc6b5a02cb823fb6f57bb124066c1e7d7e5f7d6ab4d264",
+    "exact_corner_and_quadratic_checks": 473280,
+    "additional_interior_polynomial_identity_checks": 125280,
+    "jump_endpoint_occurrences": 1914,
+    "minimum_margin_certificate_units": "0",
+    "minimum_margin_unscaled": "0",
+    "method": "Closed boundary values plus one-sided open-segment quadratics reconstructed from three interior samples; exact interior identity crosscheck.",
+    "elapsed": 54.209
+  },
+  "integral_service": {
+    "status": "PASS",
+    "certificate_sha256": "ed6fe9bcdcb3f24cacbc6b5a02cb823fb6f57bb124066c1e7d7e5f7d6ab4d264",
+    "method": "Individual companion subsets; positive Taylor/Beta integrals; signed rational interval sums",
+    "full_patterns": 7,
+    "service_coefficients": 38,
+    "independent_minimum_lower": "2564758071766285365170017231003996912226051878820587872632745266303161/10000000000000000000000000000000000000000000000000000000000000000000000",
+    "independent_minimum_decimal": "0.2564758071766285365170017231003996912226051878820587873",
+    "claimed_limiting_lower": "307770970018984529425873353861053278824139/1200000005486015625000000000000000000000000",
+    "claimed_limiting_decimal": "0.2564758071766285365170017230899156231674488428098030475",
+    "witness_norm": "1200000000001/100000000000",
+    "curvature_bound": "8549714592/14111328125",
+    "E": 71,
+    "finite_loss_required": "4718849996128173/17000000000",
+    "finite_loss_A": "4718849996128173/17000000000",
+    "N": 100000000000000,
+    "sampling_failure": "1/100000000000000",
+    "target": "1282379/5000000",
+    "finite_coefficient": "5232106433696332787823990285078189932979113/20400000093262265625000000000000000000000000",
+    "finite_decimal": "0.2564758044008244211474881936781509172850959016333324592",
+    "margin": "89776818601839615285078189932979113/20400000093262265625000000000000000000000000",
+    "margin_decimal": "4.400824421147488193678150917285095901633332459229082198E-9",
+    "elapsed_seconds": 0.997
+  },
+  "finite_integral_guarantees": [
+    {
+      "N_min": 10000000000,
+      "sampling_failure": "1/100000000",
+      "target": "641/2500",
+      "lower_coefficient": "5231540024320611918376111730979835427510363/20400000093262265625000000000000000000000000",
+      "decimal": "0.2564480392354748413817076054428567996380370781039206945231998447766105",
+      "strict_margin": "980000408167012126111730979835427510363/20400000093262265625000000000000000000000000"
+    },
+    {
+      "N_min": 100000000000000,
+      "sampling_failure": "1/100000000000000",
+      "target": "1282379/5000000",
+      "lower_coefficient": "5232106433696332787823990285078189932979113/20400000093262265625000000000000000000000000",
+      "decimal": "0.2564758044008244211474881936781509172850959016333324592290821977177869",
+      "strict_margin": "89776818601839615285078189932979113/20400000093262265625000000000000000000000000"
+    }
+  ],
+  "displayed_reward_ratio": "0.2564",
+  "competitive_factor_exact": "2500/641",
+  "competitive_factor_decimal": "3.900156006240249609984399375975039001560062402496099843993759750390016",
+  "elapsed_seconds": 120.01,
+  "proof_scope": "Finite numerical hypotheses and finite-horizon arithmetic. The manuscript supplies the reductions to continuous sizes, online allocation, and integral GPAP.",
+  "started_utc": "2026-11-02T19:46:56.238243+00:00",
+  "completed_utc": "2026-11-02T19:48:56.248220+00:00"
+}
