@@ -12,11 +12,6 @@ larger augmented horizon specified below. Appendix B of the supplied manuscript
 proves the one-resource construction and its finite-input analysis; Appendix C
 extends it to integral GPAP using resource deletion.
 
-The three integral checks described in Appendix E.1 are all included. This
-repository contains no hardness verification, parameter-search archive, or
-manuscript build files. Section references below refer to the supplied version
-of the manuscript and may change when its appendices are renumbered.
-
 ## Quick start
 
 1. Download and extract this repository, or clone it from GitHub.
